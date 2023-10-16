@@ -14,17 +14,15 @@ This program generates a rotating 3D cube using ASCII characters in a terminal w
 
 The program will create a window displaying a rotating cube made of ASCII characters.
 
-## Controls
+## Supported Platforms
 
-- The cube will continuously rotate.
-- You can adjust the rotation speed and other parameters in the code as needed.
-- Close the terminal window to exit the program.
+- This program is designed to work on **Linux** and similar Unix-like systems.
 
-## Code Structure
+## Required Library
 
-- The code uses mathematical formulas to project and rotate a cube.
-- It utilizes the `curses.h` library to control the terminal window and display ASCII characters.
+- To use the program, you need to have the "ncurses" library installed on your Linux system. It provides functions for controlling the terminal window and displaying ASCII characters.
 
----
+  To install the "ncurses" library on a Debian-based system (e.g., Ubuntu), you can use the following command:
 
-**Note**: This is a simple demonstration program and may require adjustments based on your specific environment and preferences.
+  ```bash
+  sudo apt-get install libncurses5-dev
